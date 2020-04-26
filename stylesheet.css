@@ -1,89 +1,56 @@
-* {
-  box-sizing: border-box;
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .wisata {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  .wisata-icon h4 {width: 100%;}
 }
 
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .wisata {
+    width: 100%;
+  }
+  .wisata-icon h4 {width: 100%;}
 
-a {
-  text-decoration: none;
-}
+  footer {
+    text-align: center;
+  }
 
-.clear {
-  clear: left;
-}
+  .btn {
+    width: 100%;
+  }
 
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+  .facebook {
+    margin-bottom: 10px;
+  }
 
+  .top-wrapper {
+    text-align: left;
+  }
 
+  /* Tambahkan CSS untuk header-right */
+ .header-right {display:  none;}
 
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {display:  block;}
 
-.btn:hover {
-  opacity: 1;
-}
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 
-
-
-/* Tambahkan CSS untuk menu-icon */
-
-
-.wisata-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.wisata {
-  float: left;
-  width: 20%;
-}
-
-.wisata-icon {
-  position: relative;
-}
-
-.wisata-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
