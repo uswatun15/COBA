@@ -1,56 +1,93 @@
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .wisata {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-  .wisata-icon h4 {width: 100%;}
+* {
+  box-sizing: border-box;
 }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .wisata {
-    width: 100%;
-  }
-  .wisata-icon h4 {width: 100%;}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
 
-  footer {
-    text-align: center;
-  }
+a {
+  text-decoration: none;
+}
 
-  .btn {
-    width: 100%;
-  }
+.clear {
+  clear: left;
+}
 
-  .facebook {
-    margin-bottom: 10px;
-  }
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
-  .top-wrapper {
-    text-align: left;
-  }
 
-  /* Tambahkan CSS untuk header-right */
- .header-right {display:  none;}
 
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {display:  block;}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
 
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
+.btn:hover {
+  opacity: 1;
+}
 
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
+
+
+/* Tambahkan CSS untuk menu-icon */
+
+
+.wisata-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.wisata {
+  float: left;
+  width: 20%;
+   padding-right: 5px;padding-left: 5px;
+}
+
+
+.wisata-icon img {width: 200px;height: 200px;border-radius: 8px;}
+
+
+.wisata-icon h4 {
+  font-weight: bold;background-color: rgb(106, 176, 76);border-radius: 8px; max-width: 100%;line-height: 2px;padding-top: 15px;padding-bottom:1px;
+}
+.wisata-icon h4:hover {animation-name: example;
+animation-duration: 5s;cursor: pointer;}
+@keyframes example {
+  from {background-color: rgb(5, 196, 107);}
+  to {background-color: #218c74;}
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #000;
+}
+
+.heading h3 {
+  font-weight: normal;
 }
