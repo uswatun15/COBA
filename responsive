@@ -12,6 +12,7 @@
   .heading h2 {
     font-size: 20px;
   }
+  .wisata-icon h4 {width: 100%;}
 }
 
 /* Untuk Smartphone */
@@ -19,6 +20,7 @@
   .wisata {
     width: 100%;
   }
+  .wisata-icon h4 {width: 100%;}
 
   footer {
     text-align: center;
